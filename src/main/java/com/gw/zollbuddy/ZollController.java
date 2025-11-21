@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 public class ZollController {
 
+    public ZollController(){
+
+    }
+
     @GetMapping("/")
     public String getMethodName() {
         return "{age:12}";
